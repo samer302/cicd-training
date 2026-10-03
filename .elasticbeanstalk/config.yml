@@ -1,0 +1,18 @@
+branch-defaults:
+  default:
+    environment: null
+    group_suffix: null
+global:
+  application_name: simple-node-ci-cd
+  branch: default
+  default_ec2_keyname: aws-pro
+  default_platform: Node.js 22 running on 64bit Amazon Linux 2023
+  default_region: af-south-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: simple-node-ci-cd
+  sc: git
+  workspace_type: Application

@@ -1,0 +1,60 @@
+Simple Node.js CI/CD Pipeline
+Welcome to the Simple Node.js CI/CD project! 🎉 This repository showcases how to set up a continuous integration and deployment (CI/CD) pipeline using GitHub Actions, Node.js, and Jest for testing.
+
+🚀 What is This Project About?
+This project is a basic Express.js server that returns a friendly message. But the real magic lies in automating the testing and deployment process using CI/CD workflows!
+
+🎯 Features
+✅ Express.js Server – A simple API returning "Hello, CI/CD!"
+✅ Automated Testing – Uses Jest & Supertest for API tests
+✅ GitHub Actions CI/CD – Automatically runs tests & deployments
+✅ Deployable – Ready for deployment on platforms like AWS, Heroku, or DigitalOcean
+
+🛠 Setup & Installation
+1️⃣ Clone the Repository
+sh
+git clone https://github.com/RolinaM/simple-node-ci-cd.git
+cd simple-node-ci-cd
+
+2️⃣ Install Dependencies
+sh
+npm install
+
+3️⃣ Run the Server Locally 🌍
+sh
+npm start
+##Your server should be running at: http://localhost:3000
+
+4️⃣ Run Tests 🧪
+sh
+npm test
+##This will execute Jest tests to ensure the server is working correctly!
+
+🤖 How CI/CD Works in This Project
+1️⃣ Push Code to GitHub → GitHub Actions automatically starts the CI/CD pipeline.
+2️⃣ Run Automated Tests → Jest verifies that everything works.
+3️⃣ Deployment (Optional) → Once tests pass, the server can be deployed to a cloud provider.
+
+🚀 GitHub Actions Workflow
+Your CI/CD pipeline is defined in .github/workflows/ci-cd.yml.
+
+🔹 On Every Push:
+
+Installs dependencies
+Runs Jest tests
+Deploys only if all tests pass
+
+🎉 Contributing
+Want to make this even cooler? Fork the repo, create a branch, and submit a PR! 🚀
+
+Fork the project
+Create a new branch: git checkout -b feature-branch
+Make changes & commit: git commit -m "Cool new feature"
+Push your branch: git push origin feature-branch
+Submit a PR
+📝 Author
+👩‍💻 RolinaM
+GitHub: RolinaM
+
+📜 License
+This project is open-source under the MIT License. Feel free to use, modify, and share! 🚀
